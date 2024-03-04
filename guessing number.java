@@ -22,6 +22,7 @@ public class GuessTheNumber {
 
         for (int round = 1; round <= MAX_ROUNDS; round++) {
             int secretNumber = random.nextInt(MAX_NUMBER) + 1;
+            System.out.println("The secret number is"+secretNumber);
             int attempts = 0;
             int roundScore = 0;
 
